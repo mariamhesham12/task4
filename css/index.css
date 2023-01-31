@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.header .logo{
+    width:60px;
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+.header .content h1 {
+    color:  hsl(210, 10%, 33%);
+    font-weight: 600;  
+    margin-bottom: 20px;
+}
+.header .content p{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 40px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.header .btns, .section5 .btns{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     cursor: pointer;
+     margin-bottom: 120px;
+    flex-wrap: wrap;
+}   
+.btns .btn1{
+    background-color:hsl(171, 66%, 44%);
+    color:  hsl(200, 13%, 95%);
+    border-radius: 30px;
+    padding: 10px 25px ;
+    font-size: 13px !important;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-right: 15px;
+    border-bottom: 2px solid hsl(171, 66%, 44%);
+    box-shadow: 0px 5px 10px 5px hsla(172, 56%, 55%, 0.321);
+}
+.btns .btn1:hover{
+    background-color:hsla(171, 66%, 44%, 0.679);
+    transition: all 300ms linear;
+}
+.btns .btn2{
+    background-color:hsl(233, 100%, 69%);
+    color:  hsl(200, 13%, 95%);
+    border-radius: 30px;
+    padding: 10px 25px ;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-bottom: 2px solid hsl(233, 100%, 69%);
+    box-shadow: 0px 5px 10px 5px rgba(95, 94, 104, 0.283);
+}
+.btns .btn2:hover{
+    background-color:hsla(233, 100%, 69%, 0.667);
+    transition: all 300ms linear;
+}
+.section1{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.section1 h1 , .section3 h3, .section4 .content h3 , .section5 .content h3{
+    color:  hsl(210, 10%, 33%);
+    font-weight: 600;  
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.section1 p , .section3 p, .section4 p, .section5 .content p{
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 23px;
+}
+.section2{
+    margin-top: 70px;
+}
+.section2 .img1 img{
+    width: 550px;
+    margin-left: -100px;
+
+}
+.section2 .content{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 50px;
+}
+.section2 .content h4, .section4 .rows h4{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;  
+    font-size: 20px;
+}
+.section2 .content p , .section4 .rows p{
+    color: hsl(201, 11%, 66%);
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+.section3{
+    text-align: center;
+    margin-top: 150px;
+}
+.section3 .img2 img{
+    width: 700px;
+    margin-top: 50px;
+}
+.section4{
+    text-align: center;
+    margin-top: 50px;
+}
+.section4 .content{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.section4 .item img{
+    width: 33px;
+    margin-bottom: 30px;
+    margin-top: 55px;
+}
+.section4 .item h4{
+    margin-bottom: 15px;
+}
+.section4 .rowws .logo img{
+    margin-top: 60px;
+    width: 110px;
+}
+.section5{
+    text-align: center;
+    margin-top: 100px;
+}
+.section5 .content p{
+    margin-bottom: 45px;
+}
+.footer{
+    background-color:  hsla(198, 11%, 82%, 0.475);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer .img3 img{
+    width: 45px;
+   margin-left: 100px;
+}
+.footer h5{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 3%, 43%);
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer h5:hover{
+    color:hsl(171, 66%, 44%);
+}
+.footer .links{
+    margin-left: 150px;
+}
+.footer .links i{
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: hsl(210, 10%, 33%);
+    cursor: pointer;
+}
+.footer .links i:hover{
+    color:hsl(171, 66%, 44%);
+
+}
+
+
+
+@media (min-width:360px){
+    .section2 .img1{
+        display: flex;
+    }
+}
+
+
+@media (min-width:375px){
+    .section2 .img1{
+        display: flex;
+
+    }
+}
+
+
+@media (min-width:411px){
+    .section2 .img1{
+        display: flex;
+
+    }
+    .section2 .img1 img {
+        width: 350px;
+        padding-right: 10px;
+         margin: auto;
+         padding-left: 10px;
+         
+    }
+}
+@media (max-width:720px){
+   .header .btns{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+     .section5 .btns {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .section5 .btns #b{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .header .btns .btn2{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+}
+
+    @media (max-width:767px){
+    .header{
+        background-image:url(../images/bg-header-mobile.png);
+    }
+    .btns .btn1{
+        margin-bottom: 20px;
+        padding: 10px 60px;
+    }
+     .btns .btn2{
+        margin-left: -10px;
+        padding: 10px 57px;
+    }
+    
+    .section2 .img1 img {
+        width: 280px;
+        padding-right: 10px;
+         margin: auto;
+         padding-left: 15px;
+         
+    }
+    .section3 .img2 img {
+        width: 300px; 
+     }
+    .section2 .content{
+       text-align: center;
+    }
+   .section3 h3{
+    margin-top: -20px;
+   }
+   .footer{
+    text-align: center;
+   }
+   .footer .img3 img, .footer .links{
+    margin: auto;
+   }
+   .footer .img3 img{
+    margin-bottom: 30px;
+   }
+   .footer h5{
+    padding-bottom: 10px;
+   }
+   .footer .links i{
+    padding: 0px 15px ;
+   }
+   .section4 .rowws .logo img {
+    width: 100px;
+   
+   }
+   .section4 .rows p{
+    margin-bottom: 10px;
+   }
+    } 
+
+
+
+ @media (min-width:768px){
+    .section2 .img1 img{
+        width: 450px;
+    }
+    .section2 .content{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .footer .img3 img, .footer .links{
+        margin-left: 20px;
+    }
+
+} 
+ @media (min-width:1200px) {
+    .section2 .img1 img{
+        width: 650px;
+        margin-left: -200px;
+    }
+    .section2{
+        margin-top: 150px;
+    }
+    .footer .links{
+        margin-left: 100px;}
+} 
+
+
+@media (min-width:1024px){
+    .section2 .img1{
+        display: flex;
+       
+
+    }
+    .section2 .img1 img{
+        width: 500px;
+        margin-left: -80px;
+    }
+}
+@media (min-width:768px){
+    .section2 .img1{
+        display: flex;
+       
+
+    }
+    .section2 .img1 img{
+        margin-left: -80px;
+    }
+}
